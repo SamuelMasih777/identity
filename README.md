@@ -1,7 +1,27 @@
 # ⚡ Bitespeed Backend Task — Identity Reconciliation
 
 ## Link
-## [https://identity-7bit.onrender.com/api/v1/identify]
+[https://identity-7bit.onrender.com/]
+
+## Use this endpoint on Postman to test
+[https://identity-7bit.onrender.com/api/v1/identify]
+
+POST /api/v1/identify
+Request with body
+{
+  "email": "samuelmasih@gamil.com",
+  "phoneNumber": "123456"
+}
+
+Response
+{
+  "contact": {
+    "primaryContactId": 1,
+    "emails": ["lorraine@hillvalley.edu", "samuelmasih@gamil.com"],
+    "phoneNumbers": ["123456"],
+    "secondaryContactIds": [23]
+  }
+}
 
 ---
 ## 🧩 Overview
