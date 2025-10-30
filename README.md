@@ -3,7 +3,7 @@
 ## Link
 [https://identity-7bit.onrender.com/]
 
-## Use this endpoint on Postman to test
+## Use this endpoint (/api/v1/identify) on Postman to test
 [https://identity-7bit.onrender.com/api/v1/identify]
 
 POST /api/v1/identify
