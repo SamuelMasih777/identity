@@ -1,0 +1,31 @@
+{
+  "name": "bitespeed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "generate:migration": "drizzle-kit generate",
+    "migrate": "drizzle-kit push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.18.0",
+    "drizzle-orm": "^0.44.7",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.3",
+    "prisma": "^6.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/pg": "^8.15.6",
+    "drizzle-kit": "^0.31.6",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}

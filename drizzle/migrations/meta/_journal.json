@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1761782108629,
+      "tag": "0000_typical_banshee",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1761782269322,
+      "tag": "0001_omniscient_albert_cleary",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1761785578595,
+      "tag": "0002_left_lethal_legion",
+      "breakpoints": true
+    }
+  ]
+}
